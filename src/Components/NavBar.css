@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+html {
+  background-color: aqua;
+}
+
+.Navbar {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.justify-content-end {
+  position: absolute;
+  right: 10px;
+}
+
+.justify-content-end img {
+  position: relative;
+  right: 5px;
 }
