@@ -2,14 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import NavBar from './Components/NavBar';
+import Intro from './Components/Intro';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './Components/About';
 
 
 const element = 
   <React.StrictMode>
     <NavBar />
-
+    <Intro />
+    <About />
   </React.StrictMode>
 
 ;

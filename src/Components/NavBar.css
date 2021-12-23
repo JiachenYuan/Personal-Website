@@ -37,13 +37,12 @@
   }
 } */
 
-html {
-  background-color: aqua;
-}
+
 
 .Navbar {
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  background-color: #E5E5E5;
+  /* border-bottom-left-radius: 15px; */
+  /* border-bottom-right-radius: 15px; */
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }

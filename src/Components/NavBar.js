@@ -1,13 +1,13 @@
 import './NavBar.css';
 import {Navbar, Nav} from 'react-bootstrap';
 import {Container} from 'react-bootstrap';
-import bitmoji from '../Photos/bitmoji.png';
-import emailIcon from "../Photos/email-icon.png";
+import bitmoji from '../Assets/bitmoji.png';
+import emailIcon from "../Assets/email-icon.png";
 
 function NavBar() {
   return (
 
-    <Navbar className="Navbar" fixed="top" bg="light" variant="light">
+    <Navbar className="Navbar" fixed="top" bg="dark" variant="dark">
       <Container fluid> 
       <Navbar.Brand href="#home">
         <img
@@ -19,13 +19,13 @@ function NavBar() {
         />{' '}
         Jiachen's Page
       </Navbar.Brand>
-        <Nav className="me-auto">
+        <Nav className="me-auto" style={{display:"flex", flexWrap:"wrap"}}>
           <Nav.Link href="#home">About</Nav.Link>
           <Nav.Link href="#features">Internships</Nav.Link>
           <Nav.Link href="#pricing">Projects</Nav.Link>
           <Navbar.Text className="justify-content-end">
             <img alt="" src={emailIcon} width="25" height="25"></img>
-            <a href="#login">jcyuan_johnson@berkeley.edu</a>
+            <a href="mailto:jcyuan_johnson@berkeley.edu">jcyuan_johnson@berkeley.edu</a>
           </Navbar.Text>
         </Nav>
       </Container>
