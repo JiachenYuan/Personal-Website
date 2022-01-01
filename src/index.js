@@ -6,13 +6,17 @@ import Intro from './Components/Intro';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './Components/About';
-
+import Skill from './Components/Skill';
+import Coursework from './Components/Coursework';
 
 const element = 
   <React.StrictMode>
     <NavBar />
     <Intro />
     <About />
+    <Skill />
+    <Coursework />
+
   </React.StrictMode>
 
 ;

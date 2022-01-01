@@ -54,7 +54,7 @@ function About() {
             <br />
             <Container>
                 <Row>
-                    <Col md={6} style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                    <Col md={6} sm={12} style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img alt="" src={AboutPic} style={picStyle}></img>
                     </Col>
                     <Col md={5}>
@@ -89,6 +89,8 @@ function About() {
             </Container>
 
 
+            <br />
+            <br />
             <br />
             <br />
             <br />
