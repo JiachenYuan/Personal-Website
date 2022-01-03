@@ -47,7 +47,7 @@
   backdrop-filter: blur(8px);
 }
 
-.justify-content-end {
+/* .justify-content-end {
   position: absolute;
   right: 10px;
 }
@@ -55,4 +55,4 @@
 .justify-content-end img {
   position: relative;
   right: 5px;
-}
+} */

@@ -8,18 +8,53 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './Components/About';
 import Skill from './Components/Skill';
 import Coursework from './Components/Coursework';
+import Internships from './Components/Internships';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 const element = 
   <React.StrictMode>
-    <NavBar />
+    <NavBar />  
     <Intro />
     <About />
     <Skill />
     <Coursework />
+    <Internships />
+  </React.StrictMode>;
 
-  </React.StrictMode>
 
-;
+
+//     <Router>
+//       <NavBar />
+//       <Routes>
+//         <Route index path="/" 
+//         element={
+//           <div>
+//             <Intro />
+//             <About />
+//             <Skill />
+//             <Coursework />
+//           </div>
+//         }/>
+//         <Route path="/internship" element={
+//           // <h2>asdfasdf</h2>
+//           <div>
+//             <Internships />
+
+//           </div>
+
+//         } />
+
+
+//       </Routes>
+//     </Router>
+//   </React.StrictMode>
+
+// ;
 ReactDOM.render(
   element,
   document.getElementById('root')

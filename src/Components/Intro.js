@@ -32,7 +32,7 @@ function Intro() {
         <>
             <Container className="BioCanva">
                 <Row className="align-items-center">
-                    <Col md={8}>
+                    <Col md={7} sm={12}>
                         <div className="BioIntro">
                             <p style={shoutOutStyle}>Hi! This is my website! Take a look!</p>
                             <p style={briefIntroStyle}>I’m currently a junior at UC Berkeley studying CS. I am interested in ML, systems, as well as WebDev in general. </p>
@@ -44,9 +44,9 @@ function Intro() {
                             </div>
                         </div>
                     </Col>
-                    <Col md={4} style={{maxHeight:"500px"}}>
-                        <img alt={""} src={BioPic} width={"380px"} height={"auto"} style={{zIndex:2, position:"relative"}}></img>
-                        <img alt={""} src={BioEllipse} width={"380px"} height={"auto"} style={{zIndex:1, position:"relative", top:"-400px"}}></img>
+                    <Col md={5} sm={12} style={{maxHeight:"500px"}}>
+                        <div><img alt={""} src={BioPic} width={"380px"} height={"auto"} style={{zIndex:2, position:"relative", marginLeft:"auto", marginRight:"auto", display:"block"}}></img></div>
+                        <div><img alt={""} src={BioEllipse} width={"380px"} height={"auto"} style={{zIndex:1, position:"relative", top:"-400px", marginLeft:"auto", marginRight:"auto", display:"block"}}></img></div>
                     </Col>
                 </Row>
             </Container>
@@ -60,7 +60,6 @@ function Intro() {
             </div>
             <br />
             <br id="AboutMe" />
-            <br />
             <br />
         </>
     );
