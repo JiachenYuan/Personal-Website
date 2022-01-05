@@ -33,8 +33,9 @@ function Coursework() {
 
 
     return (
-        <>
-            <Header sectionName="Coursework" id="Coursework"></Header>
+        <div id="Coursework" style={{backgroundColor:'#F1F6FE'}}>
+            <br /><br /><br />
+            <Header sectionName="Coursework"></Header>
             <br />
             <div style={{display:'flex', justifyContent:'center', textAlign:'center',fontFamily: 'Oswald',fontStyle: 'normal',fontSize: '24px'}}>
                 <p>Here is a list of my favorite courses at <span style={{color:'#FDB515'}}>UC Berkeley</span>. Note: last updated on 12/20/2021 </p>
@@ -96,8 +97,8 @@ function Coursework() {
                     {/* </div> */}
                 </Row>
             </Container>
-        <br /><br /><br /><br /><br />
-        </>
+        <br /><br /><br />
+        </div>
         
     );
 }

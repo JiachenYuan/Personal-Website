@@ -13,8 +13,8 @@ function Header(props) {
     }
 
     return (
-        <div style={{width:"100vw", height:"auto", display:"flex", justifyContent:"center"}}>
-                <div id={props.id} style={style}>{props.sectionName}</div>
+        <div style={{width:"100%", height:"auto", display:"flex", justifyContent:"center"}}>
+                <div className="hvr-grow-rotate" id={props.id} style={style}>{props.sectionName}</div>
             </div>
     );
 }

@@ -6,15 +6,6 @@ import Header from '../Components/Header';
 
 
 function About() {
-    // const style = {
-    //     background: "#6ADAFD",
-    //     borderRadius: "30px",
-    //     width: "150px",
-    //     height: "50px",
-    //     display: "flex",
-    //     justifyContent: "center",
-    //     alignItems: "center"
-    // }
 
     const picStyle = {
         width: "65%",
@@ -30,15 +21,16 @@ function About() {
     };
 
     const shoutOutStyle = {
-        color: "white",
+        color: "black",
         textAlign:'center',
         fontFamily: 'Oswald',
         fontStyle: 'normal',
-        fontSize: '28px'
+        fontSize: '28px',
+        marginBottom: "20px"
     };
 
     const pStyle = {
-        color:"white",
+        color:"black",
         textAlign: 'left',
         fontFamily: 'Sansation',
         fontSize: '22px',
@@ -49,7 +41,9 @@ function About() {
 
     return (
         <>
-            <div style={{backgroundColor: '#282828', width:"100%", height:'auto'}}>
+            <div id="About" style={{backgroundColor: '#F1F6FE', width:"100%", height:'auto'}}>
+                <br />
+                <br />
                 <br />
                 <Header sectionName="About Me" id=""></Header>
                 <br />
@@ -57,18 +51,17 @@ function About() {
                 <Container>
                     <Row>
                         <Col md={6} sm={12} style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                            <img alt="" src={AboutPic} style={picStyle}></img>
+                            <img alt="" src={AboutPic} style={picStyle} className='hvr-bounce-in'></img>
                         </Col>
                         <Col md={5}>
                             <div style={textStyle}>
                                 <div style={shoutOutStyle}>
-                                    Hey there! This is Jiachen, a random nerdy CS student at <span style={{color:"#FDB515"}}>UC Berkeley</span>
+                                    Hey there! This is Jiachen, a passionate CS student at <span style={{color:"#FDB515"}}>UC Berkeley</span>
                                 </div>
-                                <br />
-                                <br />
+
                                 <Container style={{padding:'0'}}>
                                     <div style={pStyle}>
-                                        Thank you for browsing so far. That means you are not scared away by my stupid face above 👋👋👋
+                                        Thank you for browsing so far. I hope that big picture of me above did not scare you away (I mean not so many people put their head shot on the front page 😂😂...)
                                     </div>
                                     <br />
                                     <div style={pStyle}>
@@ -95,9 +88,6 @@ function About() {
                 <br />
                 <br />
             </div>
-            <br />
-            <br />
-            <br />
 
 
         </>
