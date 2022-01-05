@@ -80,7 +80,7 @@ export default function Internships() {
                         }}
                     />
                     <Carousel.Caption style={{top:'16%', overflowY:"auto", overflowX:"hidden"}}>
-                        <h2>I currently do not have another internship... It's a next step for me!</h2>
+                        <h2 style={{color:'white'}}>I currently do not have another internship... It's a next step for me!</h2>
                         <p>However, if you are gracious enough to offer me another SWE opportunity, feel free to contact me by phone or just throw me an email! It would be greatly appreciated!</p>
 
                     </Carousel.Caption>
