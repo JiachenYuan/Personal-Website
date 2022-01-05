@@ -1,9 +1,11 @@
+import "../Hover-master/css/hover.css";
 import './NavBar.css';
 import {Navbar, Nav} from 'react-bootstrap';
 import {Container} from 'react-bootstrap';
 import bitmoji from '../Assets/bitmoji.png';
-import emailIcon from "../Assets/email-icon.png";
 // import {Link} from "react-router-dom";
+
+
 
 function NavBar() {
   return (
@@ -12,7 +14,7 @@ function NavBar() {
     <Navbar className="Navbar" sticky="top" bg="dark" variant="dark">
       <Container fluid> 
 
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#Intro">
           <img
             alt=""
             src={bitmoji}
@@ -24,13 +26,22 @@ function NavBar() {
         </Navbar.Brand>
         
         <Nav className="me-auto d-flex flex-wrap" >
-          <Nav.Link>Home</Nav.Link>
-          <Nav.Link>Internships</Nav.Link>
-          <Nav.Link href="#pricing">Projects</Nav.Link>
+          <Nav.Link href="#About" className="button hvr-underline-from-center">About</Nav.Link>
+          <Nav.Link href="#Skills" className="button hvr-underline-from-center">Skills</Nav.Link>
+          <Nav.Link href="#Coursework" className="button hvr-underline-from-center">Coursework</Nav.Link>
+          <Nav.Link href="#Projects" className="button hvr-underline-from-center">Projects</Nav.Link>
+          <Nav.Link href="#Internships" className="button hvr-underline-from-center">Internships</Nav.Link>
+          
+
         </Nav>
 
         <Nav className='mr-auto d-flex flex-wrap'>
-          <Nav.Link href="mailto:jcyuan_johnson@berkeley.edu" >
+          <Nav.Link href="https://drive.google.com/file/d/151R2LEwp46HeZAC3ErsorBMAebfw3yUY/view?usp=sharing" target="_blank" className="hvr-underline-from-center">
+            <span style={{textDecoration:"underline", wordBreak:"break-word"}}>
+              Resume
+            </span>
+          </Nav.Link>
+          <Nav.Link href="mailto: jcyuan_johnson@berkeley.edu"  className="hvr-underline-from-center">
             <span style={{textDecoration:"underline", wordBreak: 'break-all'}}>
               jcyuan_johnson@berkeley.edu
             </span>
@@ -51,28 +62,10 @@ function NavBar() {
         {/* </Nav> */}
       </Container>
     </Navbar>
+    
     <br />
     <br />
     </>
-
-
-
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 

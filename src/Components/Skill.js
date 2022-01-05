@@ -24,8 +24,11 @@ function Skill() {
 
 
     return (
-        <>
-            <Header sectionName="Skills" id="Skills"></Header>
+        <div id="Skills">
+            <br />
+            <br />
+            <br />
+            <Header sectionName="Skills" ></Header>
             <br />
             <br />
             <Container>
@@ -39,13 +42,13 @@ function Skill() {
                     <div style={subDivStyle}><img alt="" src={MongoDB}></img></div>
                 </div> */}
                 <Row className="align-items-center justify-content-center">
-                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={C} style={{margin:"20px"}}></img></div></Col>
-                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={Python} style={{margin:"20px"}}></img></div></Col>
-                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={Java} style={{margin:"20px"}}></img></div></Col>
-                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={NodeJS} style={{margin:"20px"}}></img></div></Col>
-                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={react} style={{margin:"20px"}}></img></div></Col>
-                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={Flask} style={{margin:"20px"}}></img></div></Col>
-                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={MongoDB} style={{margin:"20px"}}></img></div></Col>
+                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={C} style={{margin:"20px"}} className='hvr-float-shadow'></img></div></Col>
+                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={Python} style={{margin:"20px"}} className='hvr-float-shadow'></img></div></Col>
+                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={Java} style={{margin:"20px"}} className='hvr-float-shadow'></img></div></Col>
+                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={NodeJS} style={{margin:"20px"}} className='hvr-float-shadow'></img></div></Col>
+                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={react} style={{margin:"20px"}} className='hvr-float-shadow'></img></div></Col>
+                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={Flask} style={{margin:"20px"}} className='hvr-float-shadow'></img></div></Col>
+                    <Col sm={3} md="auto"><div style={subDivStyle}><img alt="" src={MongoDB} style={{margin:"20px"}} className='hvr-float-shadow'></img></div></Col>
 
                 </Row>
             </Container>
@@ -53,10 +56,8 @@ function Skill() {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-        </>
+
+        </div>
     );
 }
 

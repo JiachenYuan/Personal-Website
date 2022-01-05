@@ -1,0 +1,20 @@
+.Col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.Row {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: black;
+    transition: color 0.3s;
+}
+
+.card:hover h2 {
+    color: #0B5ED7;
+}

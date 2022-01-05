@@ -13,17 +13,18 @@ import Header from '../Components/Header';
 export default function Internships() {
     
     return (
-        <div>
+        <div id="Internships" style={{margin:'0', padding:'0'}}>
+
             <div style={{zIndex:"10", position:"relative", top:"100px"}}><Header sectionName="Internships" id="Internships" /></div>
-            <Carousel>
+            <Carousel interval={null} style={{maxWidth:"100%"}}>
                 {/* Slide 1 */}
                 <Carousel.Item style={{height:'auto'}}>
                     <img 
                         src={RonovoBg}
                         alt="First slide"
                         style={{
-                            width:'100vw',
-                            height:'120vh'
+                            width:'100%',
+                            height:"90vh"
                         }}
                     />
                     <Carousel.Caption style={{top:'16%', overflowY:"auto", overflowX:"hidden"}}>
@@ -31,11 +32,13 @@ export default function Internships() {
                         <p>Summer 2021 from May to August</p>
                         <p>I worked as a tool engineer intern in the startup developing some testing tools for internal use.</p>
                         <br />
+                        <br />
+                        <br />
                         <Row>
                             {/* Card 1 */}
                             <Col className='d-flex justify-content-center' style={{marginBottom:"10px"}}>
-                                <Card bg="dark" text="light" style={{ width: '18rem'}}>
-                                    <Card.Img variant="top" src={CPythonBridge} />
+                                <Card bg="dark" className="hvr-grow-shadow" text="light" style={{ width: '18rem', borderRadius:'10px', border:'3px solid #106EEA'}}>
+                                    <Card.Img variant="top" src={CPythonBridge} style={{borderTopLeftRadius:"10px", borderTopRightRadius:"10px"}}/>
                                     <Card.Body>
                                         <Card.Title>Code Bridge</Card.Title>
                                         <Card.Text>
@@ -48,8 +51,8 @@ export default function Internships() {
 
                             {/* Card 2 */}
                             <Col className='d-flex justify-content-center' style={{marginBottom:"10px"}}>
-                                <Card bg="dark" text="light" style={{ width: '18rem'}}>
-                                    <Card.Img variant="top" src={logVisualizer} style={{width:'100%', height:'auto'}}/>
+                                <Card bg="dark" className="hvr-grow-shadow" text="light" style={{ width: '18rem', borderRadius:'10px', border:'3px solid #106EEA'}}>
+                                    <Card.Img variant="top" src={logVisualizer} style={{width:'100%', height:'auto', borderTopLeftRadius:"10px", borderTopRightRadius:"10px"}}/>
                                     <Card.Body>
                                         <Card.Title>Log Visualizer</Card.Title>
                                         <Card.Text>
@@ -72,8 +75,8 @@ export default function Internships() {
                         src={InternPlaceholder}
                         alt="Second slide"
                         style={{
-                            width:'100vw',
-                            height:'120vh'
+                            width:'100%',
+                            height:"90vh"
                         }}
                     />
                     <Carousel.Caption style={{top:'16%', overflowY:"auto", overflowX:"hidden"}}>
@@ -83,6 +86,14 @@ export default function Internships() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+
+
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
         
     )

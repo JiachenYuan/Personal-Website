@@ -9,12 +9,8 @@ import About from './Components/About';
 import Skill from './Components/Skill';
 import Coursework from './Components/Coursework';
 import Internships from './Components/Internships';
-
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+import Projects from './Components/Projects';
+import Ending from './Components/Ending';
 
 const element = 
   <React.StrictMode>
@@ -24,6 +20,8 @@ const element =
     <Skill />
     <Coursework />
     <Internships />
+    <Projects />
+    <Ending />
   </React.StrictMode>;
 
 
