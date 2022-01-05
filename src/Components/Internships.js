@@ -24,7 +24,7 @@ export default function Internships() {
                         alt="First slide"
                         style={{
                             width:'100%',
-                            height:"90vh"
+                            height:"120vh"
                         }}
                     />
                     <Carousel.Caption style={{top:'16%', overflowY:"auto", overflowX:"hidden"}}>
@@ -76,7 +76,7 @@ export default function Internships() {
                         alt="Second slide"
                         style={{
                             width:'100%',
-                            height:"90vh"
+                            height:"120vh"
                         }}
                     />
                     <Carousel.Caption style={{top:'16%', overflowY:"auto", overflowX:"hidden"}}>
