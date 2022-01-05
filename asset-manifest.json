@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.91158737.css",
-    "main.js": "/Personal-Website/static/js/main.45e8619b.js",
+    "main.css": "/Personal-Website/static/css/main.fb50f75d.css",
+    "main.js": "/Personal-Website/static/js/main.e9b5648e.js",
     "static/js/787.3058b895.chunk.js": "/Personal-Website/static/js/787.3058b895.chunk.js",
     "static/media/BioPic.png": "/Personal-Website/static/media/BioPic.aef6698e59197f126812.png",
     "static/media/AboutPic.png": "/Personal-Website/static/media/AboutPic.ddb1516f5337a2d3e45b.png",
     "static/media/WechatConnect.JPG": "/Personal-Website/static/media/WechatConnect.ebaf17d2b631a4b26b00.JPG",
     "static/media/Ronovo.jpg": "/Personal-Website/static/media/Ronovo.45dc8020c1a6133a546b.jpg",
-    "static/media/email-icon.png": "/Personal-Website/static/media/email-icon.3c734ec1361a8a691303.png",
     "static/media/eecs127Logo.png": "/Personal-Website/static/media/eecs127Logo.45d9ca02e31e82e5bff0.png",
     "static/media/cs61cLogo.png": "/Personal-Website/static/media/cs61cLogo.0086fb8b20c8fe9b1f54.png",
     "static/media/cs170Logo.png": "/Personal-Website/static/media/cs170Logo.5fc8228e395d26ab236c.png",
     "static/media/python-C++.png": "/Personal-Website/static/media/python-C++.b908eb49a31d5b724385.png",
+    "static/media/Bootstrap.png": "/Personal-Website/static/media/Bootstrap.f132cb791703420e69ca.png",
     "static/media/cs188Logo.png": "/Personal-Website/static/media/cs188Logo.d23665b920382a695fa8.png",
+    "static/media/GithubPages.jpeg": "/Personal-Website/static/media/GithubPages.b9245e54f2b72b77d55f.jpeg",
     "static/media/log-visualizer.jpg": "/Personal-Website/static/media/log-visualizer.449edb3b3cf76beb25d0.jpg",
     "static/media/bitmoji.png": "/Personal-Website/static/media/bitmoji.5359244b2ffe65c599ff.png",
     "static/media/cs61bLogo.png": "/Personal-Website/static/media/cs61bLogo.1d8d9303d565b971e4b4.png",
     "index.html": "/Personal-Website/index.html",
-    "main.91158737.css.map": "/Personal-Website/static/css/main.91158737.css.map",
-    "main.45e8619b.js.map": "/Personal-Website/static/js/main.45e8619b.js.map",
+    "main.fb50f75d.css.map": "/Personal-Website/static/css/main.fb50f75d.css.map",
+    "main.e9b5648e.js.map": "/Personal-Website/static/js/main.e9b5648e.js.map",
     "787.3058b895.chunk.js.map": "/Personal-Website/static/js/787.3058b895.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91158737.css",
-    "static/js/main.45e8619b.js"
+    "static/css/main.fb50f75d.css",
+    "static/js/main.e9b5648e.js"
   ]
 }
