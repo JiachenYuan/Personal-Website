@@ -26,33 +26,6 @@ const element =
 
 
 
-//     <Router>
-//       <NavBar />
-//       <Routes>
-//         <Route index path="/" 
-//         element={
-//           <div>
-//             <Intro />
-//             <About />
-//             <Skill />
-//             <Coursework />
-//           </div>
-//         }/>
-//         <Route path="/internship" element={
-//           // <h2>asdfasdf</h2>
-//           <div>
-//             <Internships />
-
-//           </div>
-
-//         } />
-
-
-//       </Routes>
-//     </Router>
-//   </React.StrictMode>
-
-// ;
 ReactDOM.render(
   element,
   document.getElementById('root')
