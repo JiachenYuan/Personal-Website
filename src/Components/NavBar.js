@@ -36,7 +36,7 @@ function NavBar() {
         </Nav>
 
         <Nav className='mr-auto d-flex flex-wrap'>
-          <Nav.Link href="https://drive.google.com/file/d/1cujUHwgAfRf__wTdSOK-8HbNlbDkyCHx/view?usp=sharing" target="_blank" className="hvr-underline-from-center">
+          <Nav.Link href="https://drive.google.com/file/d/1CTTSt-FIVAPGw1rGgz1jdhsLiHztTO3x/view?usp=sharing" target="_blank" className="hvr-underline-from-center">
             <span style={{textDecoration:"underline", wordBreak:"break-word"}}>
               Resume
             </span>
